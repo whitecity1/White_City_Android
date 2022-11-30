@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "695834103117",
+    "project_id": "whitecity",
+    "storage_bucket": "whitecity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695834103117:android:ba726658137f41703d3b04",
+        "android_client_info": {
+          "package_name": "com.example.white_city"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695834103117-tp8ep19lvhkbrturnlgjctqv40o5fos1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.white_city",
+            "certificate_hash": "d45c14965f23c2df24599a6c6c167ae8a48a2b93"
+          }
+        },
+        {
+          "client_id": "695834103117-uprfgeeo7da6feteb5q414p4kmadpdrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA12mUqu294sm6bZUEHEaClemQkCrjkTr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695834103117-uprfgeeo7da6feteb5q414p4kmadpdrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

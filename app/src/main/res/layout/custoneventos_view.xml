@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="387dp"
+        android:layout_height="373dp">
+
+        <ImageView
+            android:id="@+id/imageNt"
+            android:layout_width="129dp"
+            android:layout_height="214dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Goku X Naruto Fusion"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/imageNt"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtMunicipio"
+            android:layout_width="213dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="20dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtEvento"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtEvento" />
+
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_width="211dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintLeft_toLeftOf="@id/txtMunicipio"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtMunicipio" />
+
+        <TextView
+            android:id="@+id/txtHorarios"
+            android:layout_width="207dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtDireccion"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtDireccion" />
+
+        <TextView
+            android:id="@+id/txtFecha_inicio"
+            android:layout_width="207dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtHorarios"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtHorarios" />
+
+        <TextView
+            android:id="@+id/txtFecha_fin"
+            android:layout_width="202dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtFecha_inicio"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtFecha_inicio" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="204dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtFecha_fin"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtFecha_fin" />
+
+        <TextView
+            android:id="@+id/txtTipo_evento"
+            android:layout_width="202dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="4dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtDescripcion"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtDescripcion" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="56dp"
+            android:rating="4.5"
+            app:layout_constraintBottom_toBottomOf="@+id/txtTipo_evento"
+            app:layout_constraintEnd_toStartOf="@+id/txtTipo_evento"
+            app:layout_constraintLeft_toLeftOf="@id/txtTipo_evento" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+

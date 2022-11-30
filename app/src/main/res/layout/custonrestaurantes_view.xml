@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="387dp"
+        android:layout_height="216dp">
+
+        <ImageView
+            android:id="@+id/imageNt"
+            android:layout_width="129dp"
+            android:layout_height="172dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Goku X Naruto Fusion"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/imageNt"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTelefono"
+            android:layout_width="209dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtRestaurante"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtRestaurante" />
+
+        <TextView
+            android:id="@+id/txtCorreo"
+            android:layout_width="205dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintLeft_toLeftOf="@id/txtTelefono"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtTelefono" />
+
+        <TextView
+            android:id="@+id/txtMun_ubicado"
+            android:layout_width="204dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtCorreo"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtCorreo" />
+
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_width="207dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtMun_ubicado"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtMun_ubicado" />
+
+        <TextView
+            android:id="@+id/txtApertura"
+            android:layout_width="202dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtDireccion"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtDireccion" />
+
+        <TextView
+            android:id="@+id/txtCierre"
+            android:layout_width="206dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="8dp"
+            android:text="This is a fan colloboration and a colloborative work."
+            android:textStyle="italic"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@id/txtApertura"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtApertura" />
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:layout_marginEnd="40dp"
+            android:rating="4.5"
+            app:layout_constraintBottom_toBottomOf="@+id/txtCierre"
+            app:layout_constraintEnd_toStartOf="@+id/txtCierre"
+            app:layout_constraintLeft_toLeftOf="@id/txtCierre"
+            app:layout_constraintTop_toBottomOf="@+id/txtCierre"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

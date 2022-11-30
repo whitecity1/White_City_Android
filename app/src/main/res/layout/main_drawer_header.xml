@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:padding="46dp"
+    android:background="#A36428CD"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="228dp"
+        android:layout_height="108dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:cropToPadding="false"
+        android:padding="15dp"
+        android:src="@drawable/logo"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LA CIUDAD BLANCA"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+
+</LinearLayout>
